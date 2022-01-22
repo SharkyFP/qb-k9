@@ -14,6 +14,7 @@ Press K to show K9 Commands (Both of these are now keymaps so its a on user basi
 The k9 ped I use personally from this script is from here https://forum.cfx.re/t/how-to-german-shepherd-malinois-k9-dog-1-0-1/1065040
 
 # You must add this to QB Inventory Server main.lua.
+```
     local function HasItem(list, item)
 
         for i = 1, #list do
@@ -71,4 +72,4 @@ The k9 ped I use personally from this script is from here https://forum.cfx.re/t
     end
     cb(RESULT)
 end)
-
+```
