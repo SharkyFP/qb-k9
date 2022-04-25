@@ -10,7 +10,7 @@ local Translations = {
         ["k9_alert"] = "Hunden Gav Tegn!",
     },
     info = {
-        ["k9_name"] = "Renewed Scripts",
+        ["k9_name"] = "K9",
         ["k9_searching"] = " Leder efter kontrabande",
         ["k9_scent"] = " kan dufte noget..",
         ["k9_nofollow"] = " kunne ikke længere finde personen..",
