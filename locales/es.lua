@@ -10,7 +10,7 @@ local Translations = {
         ["k9_alert"] = "Unidad canina alterto!",
     },
     info = {
-        ["k9_name"] = "Renewed Scripts",
+        ["k9_name"] = "K9",
         ["k9_searching"] = "esta buscando...",
         ["k9_scent"] = "encontro un olor...",
         ["k9_nofollow"] = "ya no esta rastreando..",
