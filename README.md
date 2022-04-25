@@ -13,6 +13,8 @@ Press K to show K9 Commands (Both of these are now keymaps so its a on user basi
 
 458.95 -1016.99 28.17
 
+To chnage the location open qb-k9/client/client.lua at line 373
+
 # You must add this to QB Inventory Server main.lua.
 ```
     local function HasItem(list, item)
