@@ -37,6 +37,8 @@ local Translations = {
         ["k9_searchptxt"] = "Make your K9 search nearby person",
         ["k9_area"] = "🌍 | K9 Search Area",
         ["k9_areatxt"] = "Make your K9 search area",
+        ["k9_follow"] = "🔈| K9 Follow",
+        ["k9_followtxt"] = "Make K9 follow you"
     }
 }
 Lang = Locale:new({
