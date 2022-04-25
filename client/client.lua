@@ -576,9 +576,9 @@ RegisterCommand("caninecommanders", function()
   end
 end, false) 
 
-RegisterKeyMapping('cannineattackfollow', 'K9 COMMANDS POLICE ONLY', 'keyboard', 'Z')
+RegisterKeyMapping('k9attackfollow', 'K9 COMMANDS POLICE ONLY', 'keyboard', 'Z')
 
-RegisterCommand("cannineattackfollow", function()
+RegisterCommand("k9attackfollow", function()
   if activate_k9 then
     local ped = PlayerPedId()
     if IsPlayerFreeAiming(PlayerId()) then
