@@ -516,6 +516,14 @@ RegisterCommand("caninecommanders", function()
           isMenuHeader = true
       },
       {
+        header = Lang:t("menu.k9_follow"),
+        txt = Lang:t("menu.k9_followtxt"),
+        params = {
+          event = 'qb-k9:client:Commands',
+          args = "follow"
+        }
+      },
+      {
         header = Lang:t("menu.k9_sit"),
         txt = Lang:t("menu.k9_sittxt"),
         params = {
@@ -601,6 +609,8 @@ RegisterNetEvent('qb-k9:client:Commands', function(data)
     PlayAnimation(sit.dict, sit.anim)
   elseif data == "laydown" then 
     PlayAnimation(laydown.dict, laydown.anim)
+  elseif data == "follow" then
+    K9AttackorFollow(false)
   elseif data == "searchcar" then 
     K9SearchVehicle()
   elseif data == "entercar" then 
