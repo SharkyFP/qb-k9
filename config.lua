@@ -5,7 +5,7 @@ Config.DogModelProps = {
 		["Header"] = "Police K9", -- Menu Header
 		["Text"] = "Police Issued K9 Unit Dog",
 		["Dog"] = "a_c_shepherd", -- Dog stats
-		["Colour"] = 3, -- Normally 1-3 -- Dog stats
+		["Colour"] = 0, -- Normally 1-3 -- Dog stats
 		["Vest"] = 3 -- Dog stats
 	},
 }
