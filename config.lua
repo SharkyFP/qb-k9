@@ -1,6 +1,6 @@
 Config = {}
 
-Config.DogModelProps = { 
+Config.DogModelProps = {
 	[1] = { -- Number of dogs can be infinite
 		["Header"] = "Police K9", -- Menu Header
 		["Text"] = "Police Issued K9 Unit Dog",
